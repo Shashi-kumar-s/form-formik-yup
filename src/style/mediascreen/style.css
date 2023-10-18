@@ -1,0 +1,37 @@
+@media (max-width:960px) {
+    .form__container {
+        width: 50%;
+    }
+}
+
+@media (max-width:768px) {
+    .form__container {
+        width: 60%;
+    }
+
+    .select__box {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .select__box label {
+        padding-right: 5px;
+    }
+}
+
+@media(max-width:460px) {
+    .form__container {
+        width: 90%;
+        height: 90vh;
+    }
+
+    ::placeholder {
+        font-size: 13px;
+    }
+
+    .select__box option {
+        font-size: 11px;
+    }
+
+}
